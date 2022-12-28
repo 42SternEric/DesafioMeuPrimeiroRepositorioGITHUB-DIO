@@ -1,3 +1,39 @@
-Anotacoes
+* Anotações
 
-Neste arquivo estarei transquevendo minhas anotações feitas durante o decorrer do curso para futuras consultas.
+
+// Neste arquivo estarei transcrevendo minhas anotações feitas durante o decorrer do curso para futuras consultas.
+
+
+
+* Oque é SHA1 - é um algoritmo de encriptação que gera um conjunto de caracteres de 40 digitos.
+
+                                                                        openssl sha1 (texto.txt)
+
+
+
+* Comandos GIT
+
+Para listar as pastas e os arquivo contidos na pasta atual:             dir
+Para listar os arquivo contidos na pasta atual:                         ls
+Para listar os arquivo ocultos contidos na pasta atual:                 ls -a
+Para limpar a tela do console:                                          CTRL+L
+Para navegar para uma pasta especifica:                                 cd "nome da pasta"
+Para retroceder um nivel da pasta atual:                                cd .. 
+Para criar uma pasta:                                                   mkdir "nome da pasta"
+Para criar um arquivo:                                                  echo teste > teste.txt            obs: o 1º "teste" se refere ao contedo do arquivo, o 2º "teste.txt" se refere ao nome e tipo do arquivo.
+Para deletar um arquivo:                                                rm "nome do arquivo"
+Para deletar uma pasta:                                                 rmdir "nome da pasta"
+Para start o git na pasta deseja:                                       git init
+Para mudar o status de um arquivo para staged e comitar:                git add *                         obs: utilizado após termos atualizados uma pasta de trabalho em nosso servidor local habilitando para gerarmos um novo commit.
+Para criar um novo commit:                                              git commit -m "nova versão"       obs: em "nova versão" estaremos envelopando/rotulando, ou seja, detalhando as principais alterações contidas neste novo commit.
+Para verificar status staged for commit:                                git status
+
+
+* Comandos para subir do repositorio local para o GITHUB.
+
+Para subir um projeto para o Github pela 1ª vez:                        git remote add origin (+url do repositorio github)
+Para subir novas versões do projeto para o Github:                      git push origin "master"                           obs: em "master" pode ser outro nome como main e etc..
+Para baixar uma nova versão do projeto do Github:                       git pull origin "master"                           obs: em "master" pode ser outro nome como main e etc..
+Para clonar um repositório do Github:                                   git clone (+url do repositorio github)
+
+       
